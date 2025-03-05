@@ -29,19 +29,18 @@ header {
 	margin-right: 20px;
 }
 main{
-    background-image: url("../asset/paul-green-mln2ExJIkfc-unsplash.jpg");
-	background-size: cover; 
-    background-position: center; 
+    background-image: url("../asset/Rectangle22.png");
+	background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center; 
-	opacity: 5%;
+    align-items: center;
+    position: relative;
 }
 .cointainer{
-	background-color: aqua;	
+	justify-content: space-evenly;
+	
 }
-.content{
-	background-color: #66001F;
-}
+.
