@@ -38,9 +38,19 @@ main{
     justify-content: center;
     align-items: center;
     position: relative;
+	padding: 0 10%;
 }
 .cointainer{
-	justify-content: space-evenly;
+	justify-content: space-between;
+}
+.content{
+	width: 538px;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 400;
+	color: #001466; 
+}
+p{
 	
 }
-.

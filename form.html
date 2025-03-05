@@ -7,13 +7,94 @@
 	<link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
-	<header>
+    <header>
 		<div class="logo">
 			<img class= "logoImg" src="./asset/LogoRedAlert.png" alt="Logo Red Alert">
-			Red Allert
+			Red Alert
 		</div>
-
 	</header>
-	
+
+	<main>
+		<div class="cointainer">
+			<h1>Survey Risiko Stroke</h1>
+			<h3>Isi data Anda dengan seksama</h3>
+			<p>Data yang Anda inputkan akan kami jaga kerahasiannya. Kebocorran data sepenuhnya menjadi tanggung jawab kami.</p>
+			<br>
+
+			<h1>Identitas dan Demografi</h1>
+			<form>
+				<label>Name</label>
+				<br>
+				<input type="text" id='name' name="nama">
+				<br>
+				
+				<label>Umur</label>
+				<br>
+				<input type="number" id='umur' name="umur" required> 
+				<br> 
+
+				<label>Jenis Kelamin</label>
+				<br>
+				<select id="jenisKelamin" name="jenisKelamin">
+					<option value="Laki-laki">Laki-laki</option>
+					<option value="Perempuan">Perempuan</option>
+				</select>
+				<br>
+
+				<label>Jenis Pekerjaan</label>
+				<br> 
+
+				<label>Status pernikahan</label>
+				<br> 
+
+				<label>Tipe Tempat Tinggal</label>
+				<br> 
+			</form>
+			<br> 
+
+			<h1>Riwayat Kesehatan dan Faktor Resiko</h1>
+			<form> 
+				<label>Riwayat Hipertensi</label>
+				<br>
+
+				<label>Riwayat Penyakit Jantung</label>
+				<br>
+
+				<label>Riwayat Stroke</label>
+				<br> 
+
+				<label>Riwayat Stroke dalam Keluarga</label>
+				<br> 
+			</form>
+			
+			<h1>Gaya Hidup dan Kebiasaan</h1>
+			<form>
+				<label>Status Merokok</label>
+				<br>
+				<select id="statusMerokok" name="statusMerokok">
+					<option value="Ya">Ya</option>
+					<option value="Tidak">Tidak</option>
+				</select>
+				<br>
+
+				<label>Konsumsi Alkohol</label>
+				<br>
+				
+				<label>Aktivitas Fisik</label>
+				<br>
+
+				<label>Pola Makan<label>
+				<br> 
+			</form>
+
+			<h1>Parameter Medis dan Pengukuran Fisik</h1>
+			<form>
+				<label>Rata-rata Kadar Glukosa</label>
+				<br> 
+				
+				<label
+			</form>
+		</div>
+	</main>
 </body>
 </html>

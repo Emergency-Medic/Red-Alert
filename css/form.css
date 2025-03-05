@@ -18,11 +18,16 @@ header {
 .logo{
 	display: flex;
 	align-items: center;
-	font-size: 1.5rem;
-	font-weight: 700;
-	color: #333;
+	font-size: 22px;
+	font-weight: 500;
+	letter-spacing: 5%;
+	color: #66001F;
 }
 .logoImg{
 	width: 48px;
 	height: 39px;
+	margin-right: 20px;
+}
+main{
+	padding: 0 10%; 
 }
