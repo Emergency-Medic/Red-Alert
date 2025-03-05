@@ -18,30 +18,11 @@ header {
 .logo{
 	display: flex;
 	align-items: center;
-	font-size: 22px;
-	font-weight: 500;
-	letter-spacing: 5%;
-	color: #66001F;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #333;
 }
 .logoImg{
 	width: 48px;
 	height: 39px;
-	margin-right: 20px;
-}
-main{
-    background-image: url("../asset/paul-green-mln2ExJIkfc-unsplash.jpg");
-	background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    min-height: 100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-	opacity: 5%;
-}
-.cointainer{
-	background-color: aqua;	
-}
-.content{
-	background-color: #66001F;
 }
