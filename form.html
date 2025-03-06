@@ -16,24 +16,24 @@
 
 	<main>
 		<div class="cointainer">
-			<h1>Survey Risiko Stroke</h1>
-			<h3>Isi data Anda dengan seksama</h3>
-			<p>Data yang Anda inputkan akan kami jaga kerahasiannya. Kebocorran data sepenuhnya menjadi tanggung jawab kami.</p>
+			<h1>Stroke Risk Survey</h1>
+			<h3>Fill in your details carefully.</h3>
+			<p>The data you input will be kept confidential. Data leakage is entirely our responsibility.</p>
 			<br>
 
-			<h1>Identitas dan Demografi</h1>
+			<h1>Identities and Demographics</h1>
 			<form>
 				<label>Name</label>
 				<br>
 				<input type="text" id='name' name="nama">
 				<br>
 				
-				<label>Umur</label>
+				<label>Age *</label>
 				<br>
 				<input type="number" id='umur' name="umur" required> 
 				<br> 
 
-				<label>Jenis Kelamin</label>
+				<label>Gender *</label>
 				<br>
 				<select id="jenisKelamin" name="jenisKelamin">
 					<option value="Laki-laki">Laki-laki</option>
@@ -41,35 +41,36 @@
 				</select>
 				<br>
 
-				<label>Jenis Pekerjaan</label>
+				<label>Work Type</label>
 				<br> 
 
-				<label>Status pernikahan</label>
+				<label>Marital Status</label>
 				<br> 
 
-				<label>Tipe Tempat Tinggal</label>
+				<label>Residence Type</label>
 				<br> 
 			</form>
 			<br> 
 
-			<h1>Riwayat Kesehatan dan Faktor Resiko</h1>
+			<h1>Medical History and Risk Factors</h1>
 			<form> 
-				<label>Riwayat Hipertensi</label>
+				<label>Hypertension History *</label>
 				<br>
 
-				<label>Riwayat Penyakit Jantung</label>
+				<label>Heart Disease History *</label>
 				<br>
 
-				<label>Riwayat Stroke</label>
+				<label>Stroke History *</label>
 				<br> 
 
-				<label>Riwayat Stroke dalam Keluarga</label>
+				<label>Family History of Stroke *</label>
 				<br> 
 			</form>
+			<br>
 			
-			<h1>Gaya Hidup dan Kebiasaan</h1>
+			<h1>Lifestyle and Habits</h1>
 			<form>
-				<label>Status Merokok</label>
+				<label>Smoking Status *</label>
 				<br>
 				<select id="statusMerokok" name="statusMerokok">
 					<option value="Ya">Ya</option>
@@ -77,24 +78,46 @@
 				</select>
 				<br>
 
-				<label>Konsumsi Alkohol</label>
+				<label>Alcohol Consumption *</label>
 				<br>
 				
-				<label>Aktivitas Fisik</label>
+				<label>Physical Activities *</label>
 				<br>
 
-				<label>Pola Makan<label>
+				<label>Dietary Patterns *<label>
 				<br> 
 			</form>
+			<br> 
 
-			<h1>Parameter Medis dan Pengukuran Fisik</h1>
+			<h1>Medical Parameters and Physical Measurements</h1>
 			<form>
-				<label>Rata-rata Kadar Glukosa</label>
+				<label>Average Glucose Level *</label>
 				<br> 
 				
-				<label
+				<label>Body Mass Index (BMI) *</label>
+				<br> 
+
+				<label>Stress Level *</label>
+				<br> 
+
+				<label>Blood Pressure Level *</label>
+				<br> 
+
+				<label>Cholesterol Level (HDL/LDL) *</label>
+				<br>
 			</form>
+			<br> 
+			
+			<h1>Symptoms and Diagnosis</h1>
+			<form> 
+				<label>Symptoms</label>
+				<br>
+				
+			</form>	
 		</div>
+		<br>
+
+		<button>Submit</button>
 	</main>
 </body>
 </html>
