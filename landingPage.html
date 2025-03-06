@@ -3,101 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red Alert - Prediksi Risiko Stroke</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Red Alert - Prediksi Stroke</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Red Alert</div>
+        <div class="logo-container">
+            <img src="./asset/LogoRedAlert.png" alt="Red Alert Logo">
+            <span class="logo-text">Red Alert</span>
+        </div>
     </header>
-    <main>
-        <section class="hero">
-            <h1><strong>Ketahui Risiko Stroke</strong> Anda dalam Hitungan Detik!</h1>
-            <p>Dengan teknologi AI, Red Alert membantu Anda memahami kesehatan lebih baik dan mengambil langkah pencegahan lebih dini terhadap penyakit Stroke.</p>
-            <button class="cta" id="goToForm"><p>Mulai Sekarang</p></button>
-        </section>
-        <section class="prediction">
-            <div class="card">
-                <h3>Presentase Prediksi</h3>
-                <p class="percentage">XX%</p>
-                <p>Kategori Risiko: Low, Med, High</p>
-                <p class="tips">Tips: Pertahankan gaya hidup sehat untuk mengurangi risiko di masa depan</p>
+
+    <main class="main">
+        <div class="container-background">
+            <div class="content">
+                <section class="intro">
+                    <h2><strong>Ketahui Risiko Stroke</strong> Anda dalam Hitungan Detik!</h2>
+                    <p>Dengan teknologi AI, Red Alert membantu Anda memahami kesehatan lebih baik dan mengambil langkah pencegahan lebih dini terhadap penyakit Stroke.</p>
+                    <button id="goToForm">Mulai Sekarang</button>
+                </section>
+                <section class="prediction">
+                    <div class="card">
+                        <h3 class="title-percentage">Persentase Prediksi</h3>
+                        <p class="percentage">XX%</p>
+                        <p>Kategori Resiko: <span class="risk">Low, Med, High</span></p>
+                        <p><strong>Tips:</strong> Pertahankan gaya hidup sehat untuk menurunkan risiko di masa depan</p>
+                    </div>
+                    <div class="alert-card">
+                        <h3 class="title-alert-percentage">Level</h4>
+                        <p class="alert-percentage">X-Y%</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </section>
             </div>
-            <div class="level-card">
-                <h3>Level</h3>
-                <p class="level">X-Y%</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </section>
-        <section class="features">
-            <div class="feature">
-                <h3><strong>Keunggulan</strong> Red Alert</h3>
-                <p><strong>Red Alert</strong> menggunakan AI untuk memprediksi risiko stroke hanya dengan mengisi data kesehatan Anda. Cegah lebih awal, kenali risikonya sekarang!</p>
-            </div>
-            <div class="feature">
-                <h3>Prediksi akurat berbasis AI</h3>
-                <p>Teknologi cerdas AI kami menganalisis data Anda untuk prediksi yang cepat dan tepat.</p>
-            </div>
-            <div class="feature">
-                <h3>Jaminan Privasi</h3>
-                <p>Data-data yang Anda inputkan sepenuhnya aman dan terlindungi tanpa adanya kebocoran ke pihak lain.</p>
-            </div>
-            <div class="feature">
-                <h3>Kemudahan Penggunaan</h3>
-                <p>Cukup isi data, klik, dan lihat hasil dalam hitungan detik.</p>
-            </div>
-        </section>
-        <section class="aboutStroke">
-            <div class="headingAbout">
-                <h2>Tentang <strong>Stroke</strong></h2>
-            </div>
-            
-            <div class="cardAbout">
-                <div class="aboutCard">
-                    <h3>Definisi</h3>
-                    <p>Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak. </p>
-                </div>
-                <div class="aboutCard">
-                    <h3>Faktor Penyebab</h3>
-                    <p>Penyebab stroke secara umum terbagi menjadi dua, yaitu adanya gumpalan darah pada pembuluh darah di otak dan pecahnya pembuluh darah di otak.
-                        Penyempitan atau pecahnya pembuluh darah tersebut dapat terjadi akibat beberapa faktor, seperti tekanan darah tinggi, penggunaan obat pengencer darah, aneurisma otak, dan trauma otak.</p>
+        </div>
+
+        <div class="keunggulan">
+            <div class="keunggulankiri">
+                <h2>Keunggulan Red Alert</h2>
+                <h4> <strong>Red Alert</strong> menggunakan AI untuk memprediksi risiko stroke hanya dengan mengisi data kesehatan Anda. Cegah lebih awal, kenali risikonya sekarang!</h4>
+                <div class="keunggulankiribawah">
+                    <img src="./asset/oui--app-search-profiler.png" alt="" class="gambarkeunggulan">
+                    <div>
+                        <h2>Keunggulan Red Alert</h2>
+                        <h4>Teknologi cerdas AI kami menganalisis data Anda untuk prediksi yang cepat dan tepat.</h4>
+                    </div>
                 </div>
             </div>
-            
-        </section>
-        <section class="stats">
-            <div class="headingStats">
-                <h2><strong>Statistika Penyakit </strong>Stroke di Indonesia</h2>
+            <div class="keunggulankanan">
+                <div class="keunggulankananatas">
+                    <img src="./asset/ic--outline-lock.png" alt="" class="gambarkeunggulan">
+                    <div>
+                        <h2>Jaminan Privasi</h2>
+                        <h4>Data-data yang Anda inputkan sepenuhnya aman dan terlindungi tanpa adanya kebocoran ke pihak lain.</h4>
+                    </div>
+                </div>
+                <div class="keunggulankananbawah">
+                    <img src="./asset/mdi--check-all.png" alt="" class="gambarkeunggulan">
+                    <div>
+                        <h2>Jaminan Privasi</h2>
+                        <h4>Data-data yang Anda inputkan sepenuhnya aman dan terlindungi tanpa adanya kebocoran ke pihak lain.</h4>
+                    </div>
+                </div>
             </div>
-            <div class="statImage">
-                <img src="" alt="/image tidak ditemukan">
+        </div>
+        <div class="tentang">
+            <h1 class="judultentang">Tentang STROKE</h1>
+            <div class="contenttentang">
+                <div class="cardtentangkiri">  
+                    <div class="tentangkiritext">
+                        <h2>Definisi</h2>
+                        <h4>Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak. </h4>
+                    </div> 
+                </div>
+                <div class="cardtentangkanan">
+                    <div class="tentangkanantext">
+                        <h2>Definisi</h2>
+                        <h4>Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak. </h4>
+                        <h4>Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak. </h4>
+                    </div>
+                </div>
             </div>
-            <div class="statCard">
-                <h3>Data</h3>
-                <p>Di Indonesia, stroke menjadi penyebab utama kecacatan dan kematian, yakni sebesar 11,2% dari total kecacatan dan 18,5% dari total kematian. Menurut data Survei Kesehatan Indonesia 2023, prevalensi stroke mencapai 8,3 per 1.000 penduduk. (Kemenkes) berupaya meningkatkan deteksi dini stroke pada 90% atau sekitar 10,5 juta penduduk. Namun, saat ini capaian deteksi dini stroke baru mencapai sekitar 11,3% dari target.</p>
+        </div>
+        <div class="statistika">
+            <h1 class="judulstatistika">Statistika Penyakit Stroke di Indonesia</h1>
+            <div class="contentstatistika">
+                <div>
+                    <img src="./asset/10-penyakit-penyebab-kematian-tertinggi-di-indonesia.png" alt="" class="gambarstatistika">
+                </div>
+                <div class="cardstatistikakanan">
+                    <div class="statistikakanantext">
+                        <h2>Data</h2>
+                        <h4>Di Indonesia, stroke menjadi penyebab utama kecacatan dan kematian, yakni sebesar 11,2% dari total kecacatan dan 18,5% dari total kematian. Menurut data Survei Kesehatan Indonesia 2023, prevalensi stroke mencapai 8,3 per 1.000 penduduk. (Kemenkes) berupaya meningkatkan deteksi dini stroke pada 90% atau sekitar 10,5 juta penduduk. Namun, saat ini capaian deteksi dini stroke baru mencapai sekitar 11,3% dari target.</h4>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section class="predict">
-            <div class="headingPredict">
-                <h2>Hasil Prediksi</h2>
-                <p>Menunjukan kategori prediksi level resiko berdasarkan data data yang telah user inputkan. Kenali resikonya, ambil tindakan segera.</p>
+        </div>
+        <div class="prediksi">
+            <h1 class="judulprediksi">Hasil Prediksi</h1>
+            <h3 class="subjudulprediksi">Red Alert membantu anda mengenali presentse resiko stoke. Terdapat kategori prediksi level resiko berdasarkan data data yang telah user inputkan. Kenali resikonya, ambil tindakan segera.</h3>
+            <div class="contentprediksi">
+                <div class="kotakprediksi1">
+                    <h2>Rendah</h2>
+                    <h1>0-40%</h1>
+                    <h4>Menunjukkan bahwa faktor risiko utama seperti tekanan darah, kadar kolesterol, dan gaya hidup masih dalam batas normal atau sehat.</h4>
+                </div>
+                <div class="kotakprediksi2">
+                    <h2>Sedang</h2>
+                    <h1>41-70%</h1>
+                    <h4>Tanpa faktor risiko yang perlu diwaspadai. Disarankan untuk memperbaiki gaya hidup dan rutin memeriksa kesehatan.</h4>
+                </div>
+                <div class="kotakprediksi3">
+                    <h2>Tinggi</h2>
+                    <h1>70-100%</h1>
+                    <h4>Risiko stroke tinggi! Memerlukan konsultasi lebih lanjut dengan tenaga medis dan ambil langkah pencegahan lebih serius.</h4>
+                </div>
             </div>
-            <div class="predictCard">
-                <h3 class="predictLow">Rendah</h3>
-                <h2 class="predictLow">0-40%</h2>
-                <p class="">Menunjukkan bahwa faktor risiko utama seperti tekanan darah, kadar kolesterol, dan gaya hidup masih dalam batas normal atau sehat.</p>
-            </div>
-            <div class="predictCard">
-                <h3 class="predictMed">Sedang</h3>
-                <h2 class="predictMed">41-70%</h2>
-                <p class="">Tanpa faktor risiko yang perlu diwaspadai. Disarankan untuk memperbaiki gaya hidup dan rutin memeriksa kesehatan.</p>
-            </div>
-            <div class="predictCard">
-                <h3 class="predictHigh">Tinggi</h3>
-                <h2 class="predictHigh">70-100%</h2>
-                <p class="">Risiko stroke tinggi! Memerlukan konsultasi lebih lanjut dengan tenaga medis dan ambil langkah pencegahan lebih serius.</p>
-            </div>
-        </section>
+        </div>
     </main>
     <script src="./js/landingPage.js"></script>
 </body>
