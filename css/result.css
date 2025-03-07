@@ -33,21 +33,85 @@ main{
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 89vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-	padding: 0 10%;
+	/* padding: 0 10%; */
+	/* width: 90%; */
 }
-.cointainer{
+
+/* Main */
+
+.container {
+	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: auto;
 }
-.content{
-	width: 538px;
+
+.containerkiri {
+	/* box-shadow: -4px 4px 10px black; */
+	width: 40%;
+	margin: auto;
+	padding: 40px;
+	text-align: left;
+	font-size: large;
+
 }
-h1 {
-	font-size: 40px;
-	font-weight: 400;
-	color: #001466; 
+
+.containerkiri h1 {
+	color: #001466;
+	font-weight: normal;
+}
+
+.containerkiri strong {
+	font-weight: bold;
+}
+
+.containerkiri p {
+	margin: 30px;
+	margin-left: 0px;
+}
+
+.containerkiri button {
+	background-color: #001466;
+	color: white;
+	height: 30px;
+	width: 150px;
+    border: none;
+    cursor: pointer;
+	/* border-radius: 10px; */
+}
+
+.containerkanan {
+	box-shadow: -4px 4px 10px black;
+	width: 40%;
+	border-top: 20px solid #F99E00;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px;
+	gap: 40px	;
+	margin: auto;
+}
+
+.containerkanan h2 {
+	font-weight: normal;
+	color: #001466;
+}
+
+.containerkanan h1 {
+	color: #F99E00;
+	font-size: 80px;
+}
+
+.containerkanan h4 {
+	color: #001466;
+	font-size: 13px;
 }
