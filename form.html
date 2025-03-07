@@ -15,177 +15,151 @@
 	</header>
 
 	<main>
-		<div class="cointainer">
-			<h1>Stroke Risk Survey</h1>
-			<h3>Fill in your details carefully.</h3>
-			<p>The data you input will be kept confidential. Data leakage is entirely our responsibility.</p>
-			<br>
+		<div class="container">
+			<div class="kotakcontainer">
+				<div class="judulform">
+					<h1>Stroke Risk Survey</h1>
+					<h3>Fill in your details carefully.</h3>
+					<p>The data you input will be kept confidential. Data leakage is entirely our responsibility.</p>
+				</div>
+				<div class="sub1">
+					<h1>Identities and Demographics</h1>
+					<form>
+						<label>Name</label>
+						<input type="text" id='name' name="nama" required>
 
-			<h1>Identities and Demographics</h1>
-			<form>
-				<label>Name</label>
-				<br>
-				<input type="text" id='name' name="nama">
-				<br>
+						<label>Age *</label>
+						<input type="number" id='umur' name="umur" required> 
+		
+						<label>Gender *</label>
+						<select id="gender" name="gender">
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</select>
+		
+						<label>Work Type</label>
+						<select id="workType" name="workType">
+							<option value="selfEmployed">Self-employed</option>
+							<option value="private">Private</option>
+							<option value="goverment">Goverment Job</option>
+							<option value="neverWorked">Never Worked</option>
+							<option value="children">Children</option>
+						</select>
+		
+						<label>Marital Status</label>
+						<select id="maritalStatus" name="maritalStatus">
+							<option value="married">Married</option>
+							<option value="single">Single</option>
+							<option value="divorced">Divorced</option> 
+						</select>		
+						<label>Residence Type</label>
+
+						<select id="residenceType" name="residenceType">
+							<option value="urban">Urban</option>
+							<option value="rural">Rural</option>
+						</select>
+					</form>
+				</div>
+				<div class="sub2">
+					<h1>Medical History and Risk Factors</h1>
+					<form> 
+						<label>Hypertension History *</label>
+						<select id="hypertension" name="hypertension">
+							<option value="yes">Yes</option>
+							<option value="no">No</option>
+						</select>
+		
+						<label>Heart Disease History *</label>
+						<select id="heartDisease" name="heartDisease">
+							<option value="yes">Yes</option>
+							<option value="no">No</option>
+						</select>
+		
+						<label>Family History of Stroke *</label>
+						<select id="familyHistory" name="familyHistory">
+							<option value="yes">Yes</option>
+							<option value="no">No</option>
+						</select>
+
+					</form>
+				</div>
+
+				<div class="sub3">
+					<h1>Lifestyle and Habits</h1>
+					<form>
+						<label>Smoking Status *</label>
+						<select id="smokingStatus" name="smokingStatus">
+							<option value="never">Non Smoker</option>
+							<option value="formerly"> Formerly Smoker</option>
+							<option value="current">Currently Smoker</option> 
+						</select>
+		
+						<label>Alcohol Consumption *</label>
+						<select id="alcoholComsumption" name="alcoholComsumption" required>
+							<option value="naver">Naver</option> 
+							<option value="rarely">Rarely</option>
+							<option value="social">Social Drinker</option>
+							<option value="frequent">Frequent Drinker</option>
+						</select>
+					
+						<label>Physical Activities *</label>
+						<select id="physicalActivities" name="physicalActivities"> 
+							<option value="low">Low</option>
+							<option value="moderate">Moderate</option>
+							<option value="high">High</option>
+						</select>
+		
+						<label>Dietary Patterns *</label>
+						<select id="dietaryPatterns" name="dietaryPatterns"> 
+							<option value="paleo">Paleo</option>
+							<option value="pescatarian">Pescatarian</option>
+							<option value="glutenFree">Gluten Free</option>
+							<option value="vegan">Vegan</option>
+							<option value="vegetarian">Vegetarian</option>
+							<option value="nonVegetarian">Non Vegetarian</option>
+						</select>			
+					</form>
+				</div>
+
+				<div class="sub4">
+					<h1>Medical Parameters and Physical Measurements</h1>
+					<form>
+						<label>Average Glucose Level *</label>
+						<input type="number" id="glucoseLv" name="glucoseLv" step="any" required>
+		
+						<label>Body Mass Index (BMI) *</label>
+						<input type="number" id="bmi" name="bmi" step="any" required>
+						
+						<label>Stress Level *</label>
+						<input type="number" id="stressLv" name="stressLv" step="any" required>
+
+						<label>Blood Pressure Level *</label>
+						<div class="bloodlevel">
+							<input type="number" id="sistolik" name="sistolik" step="any" required> 
+							<h3 class="bloodpemisah">/</h3> 
+							<input type="number" id="diastolik" name="" step="any" required>
+						</div>
+		
+						<label>Cholesterol Level (HDL/LDL) *</label>
+						<div class="Cholesterollevel">
+							<input type="number" id="hdl" name="hdl" step="any" required> HDL 
+							<input type="number" id="ldl" name="ldl" step="any" required> LDL
+						</div>
+					</form>
+				</div>
 				
-				<label>Age *</label>
-				<br>
-				<input type="number" id='umur' name="umur" required> 
-				<br> 
-
-				<label>Gender *</label>
-				<br>
-				<select id="gender" name="gender">
-					<option value="Male">Male</option>
-					<option value="Female">Female</option>
-				</select>
-				<br>
-
-				<label>Work Type</label>
-				<br> 
-				<select id="workType" name="workType">
-					<option value="selfEmployed">Self-employed</option>
-					<option value="private">Private</option>
-					<option value="goverment">Goverment Job</option>
-					<option value="neverWorked">Never Worked</option>
-					<option value="children">Children</option>
-				</select>
-				<br>
-
-				<label>Marital Status</label>
-				<br> 
-				<select id="maritalStatus" name="maritalStatus">
-					<option value="married">Married</option>
-					<option value="single">Single</option>
-					<option value="divorced">Divorced</option> 
-				</select>
-				<br>
-
-				<label>Residence Type</label>
-				<br> 
-				<select id="residenceType" name="residenceType">
-					<option value="urban">Urban</option>
-					<option value="rural">Rural</option>
-				</select>
-				<br>
-			</form>
-			<br> 
-
-			<h1>Medical History and Risk Factors</h1>
-			<form> 
-				<label>Hypertension History *</label>
-				<br>
-				<select id="hypertension" name="hypertension">
-					<option value="yes">Yes</option>
-					<option value="no">No</option>
-				</select>
-				<br> 
-
-				<label>Heart Disease History *</label>
-				<br>
-				<select id="heartDisease" name="heartDisease">
-					<option value="yes">Yes</option>
-					<option value="no">No</option>
-				</select>
-				<br> 
-
-				<label>Family History of Stroke *</label>
-				<br> 
-				<select id="familyHistory" name="familyHistory">
-					<option value="yes">Yes</option>
-					<option value="no">No</option>
-				</select>
-				<br> 
-			</form>
-			<br>
-			
-			<h1>Lifestyle and Habits</h1>
-			<form>
-				<label>Smoking Status *</label>
-				<br>
-				<select id="smokingStatus" name="smokingStatus">
-					<option value="never">Non Smoker</option>
-					<option value="formerly"> Formerly Smoker</option>
-					<option value="current">Currently Smoker</option> 
-				</select>
-				<br>
-
-				<label>Alcohol Consumption *</label>
-				<br>
-				<select id="alcoholComsumption" name="alcoholComsumption">
-					<option value="naver">Naver</option> 
-					<option value="rarely">Rarely</option>
-					<option value="social">Social Drinker</option>
-					<option value="frequent">Frequent Drinker</option>
-				</select>
-				<br>
+				<div class="sub5">
+					<h1>Symptoms and Diagnosis</h1>
+					<form> 
+						<label>Symptoms</label>
+						<input type="text" id='symptoms' name="symptoms">					
+					</form>	
+				</div>
 				
-				<label>Physical Activities *</label>
-				<br>
-				<select id="physicalActivities" name="physicalActivities"> 
-					<option value="low">Low</option>
-					<option value="moderate">Moderate</option>
-					<option value="high">High</option>
-				</select>
-				<br> 
-
-				<label>Dietary Patterns *<label>
-				<br> 
-				<select id="dietaryPatterns" name="dietaryPatterns">
-					<option value="paleo">Paleo</option>
-					<option value="pescatarian">Pescatarian</option>
-					<option value="glutenFree">Gluten Free</option>
-					<option value="vegan">Vegan</option>
-					<option value="vegetarian">Vegetarian</option>
-					<option value="nonVegetarian">Non Vegetarian</option>
-				</select>	
-				<br> 				
-			</form>
-			<br> 
-
-			<h1>Medical Parameters and Physical Measurements</h1>
-			<form>
-				<label>Average Glucose Level *</label>
-				<br> 
-				<input type="number" id="glucoseLv" name="glucoseLv" step="any" required>
-				<br> 
-
-				<label>Body Mass Index (BMI) *</label>
-				<br> 
-				<input type="number" id="bmi" name="bmi" step="any" required>
-				<br>
-				
-				<label>Stress Level *</label>
-				<br> 
-				<input type="number" id="stressLv" name="stressLv" step="any" required>
-				<br> 
-
-
-				<label>Blood Pressure Level *</label>
-				<br> 
-				<input type="number" id="sistolik" name="sistolik" step="any" required> / <input type="number" id="diastolik" name="" step="any" required>
-				<br> 
-
-				<label>Cholesterol Level (HDL/LDL) *</label>
-				<br> 
-				<input type="number" id="hdl" name="hdl" step="any" required> HDL 
-				<input type="number" id="ldl" name="ldl" step="any" required> LDL
-				<br>
-			</form>
-			<br> 
-
-			<h1>Symptoms and Diagnosis</h1>
-			<form> 
-				<label>Symptoms</label>
-				<br> 
-				<input type="text" id='symptoms' name="symptoms">
-				<br>
-				
-			</form>	
+				<button>Submit</button>
+			</div>
 		</div>
-		<br>
 
-		<button>Submit</button>
 	</main>
 </body>
 </html>

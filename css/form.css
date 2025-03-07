@@ -29,5 +29,268 @@ header {
 	margin-right: 20px;
 }
 main{
-	padding: 0 10%; 
+	background-color: #F8FAFF;
+}
+
+/*  */
+.container {
+	padding: 40px;
+	margin-left: 30%;
+	background-color: white;
+}
+
+.kotakcontainer {
+	width: 80%;
+}
+/* Judul */
+
+.judulform {
+	color: #001466;
+	/* margin: 20px; */
+}
+
+.judulform h1 {
+	margin: 20px;
+	font-size: 40px;
+}
+
+.judulform h3 {
+	margin: 20px;
+	font-size: 15px;
+	/* font-weight: normal; */
+}
+
+.judulform p {
+	margin: 20px;
+}
+
+/* Sub1 */
+.sub1 {
+	color: #001466;
+}
+
+.sub1 h1 {
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 20px;
+	color: #66001F;
+}
+
+.sub1 form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	/* gap: 10px; */
+}
+
+.sub1 form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+select {
+	justify-content: center;
+	/* text-align: left; */
+}
+
+#name, #umur, #gender, #workType, #maritalStatus, #residenceType {
+	margin-bottom: 10px;
+	background-color: white;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 10px;
+}
+
+/* Sub2 */
+.sub2 {
+	color: #001466;
+}
+
+.sub2 h1 {
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 20px;
+	color: #66001F;
+}
+
+.sub2 form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	/* gap: 10px; */
+}
+
+.sub2 form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.sub2 select {
+	justify-content: center;
+	/* text-align: left; */
+}
+
+#hypertension, #heartDisease, #familyHistory {
+	margin-bottom: 10px;
+	background-color: white;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 10px;
+}
+
+/* Sub3 */
+.sub3 {
+	color: #001466;
+}
+
+.sub3 h1 {
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 20px;
+	color: #66001F;
+}
+
+.sub3 form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	/* gap: 10px; */
+}
+
+.sub3 form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.sub3 select {
+	justify-content: center;
+	/* text-align: left; */
+}
+
+#smokingStatus, #alcoholComsumption, #physicalActivities, #dietaryPatterns {
+	margin-bottom: 10px;
+	background-color: white;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 10px;
+}
+
+/* Sub4 */
+.sub4 {
+	color: #001466;
+}
+
+.sub4 h1 {
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 20px;
+	color: #66001F;
+}
+
+.sub4 form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	/* gap: 10px; */
+}
+
+.sub4 form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.sub4 select {
+	justify-content: center;
+	/* text-align: left; */
+}
+
+.bloodlevel {
+	display: flex;
+}
+
+.bloodpemisah {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.cholestrollevel {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#glucoseLv, #bmi, #stressLv, #sistolik, #diastolik, #hdl, #ldl {
+	margin-bottom: 10px;
+	background-color: white;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 10px;
+}
+
+/* Sub5 */
+.sub5 {
+	color: #001466;
+}
+
+.sub5 h1 {
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 20px;
+	color: #66001F;
+}
+
+.sub5 form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	/* gap: 10px; */
+}
+
+.sub5 form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.sub5 select {
+	justify-content: center;
+	/* text-align: left; */
+}
+
+#symptoms {
+	margin-bottom: 10px;
+	background-color: white;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 10px;
+}
+
+button {
+	margin: 20px;
+	background-color: #001466;
+	color: white;
+	height: 30px;
+	width: 150px;
+    border: none;
+    cursor: pointer;
+	border-radius: 10px;
 }
