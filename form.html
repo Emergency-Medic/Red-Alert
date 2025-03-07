@@ -35,20 +35,39 @@
 
 				<label>Gender *</label>
 				<br>
-				<select id="jenisKelamin" name="jenisKelamin">
-					<option value="Laki-laki">Laki-laki</option>
-					<option value="Perempuan">Perempuan</option>
+				<select id="gender" name="gender">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
 				</select>
 				<br>
 
 				<label>Work Type</label>
 				<br> 
+				<select id="workType" name="workType">
+					<option value="selfEmployed">Self-employed</option>
+					<option value="private">Private</option>
+					<option value="goverment">Goverment Job</option>
+					<option value="neverWorked">Never Worked</option>
+					<option value="children">Children</option>
+				</select>
+				<br>
 
 				<label>Marital Status</label>
 				<br> 
+				<select id="maritalStatus" name="maritalStatus">
+					<option value="married">Married</option>
+					<option value="single">Single</option>
+					<option value="divorced">Divorced</option> 
+				</select>
+				<br>
 
 				<label>Residence Type</label>
 				<br> 
+				<select id="residenceType" name="residenceType">
+					<option value="urban">Urban</option>
+					<option value="rural">Rural</option>
+				</select>
+				<br>
 			</form>
 			<br> 
 
@@ -56,14 +75,26 @@
 			<form> 
 				<label>Hypertension History *</label>
 				<br>
+				<select id="hypertension" name="hypertension">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+				<br> 
 
 				<label>Heart Disease History *</label>
 				<br>
-
-				<label>Stroke History *</label>
+				<select id="heartDisease" name="heartDisease">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
 				<br> 
 
 				<label>Family History of Stroke *</label>
+				<br> 
+				<select id="familyHistory" name="familyHistory">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
 				<br> 
 			</form>
 			<br>
@@ -72,20 +103,43 @@
 			<form>
 				<label>Smoking Status *</label>
 				<br>
-				<select id="statusMerokok" name="statusMerokok">
-					<option value="Ya">Ya</option>
-					<option value="Tidak">Tidak</option>
+				<select id="smokingStatus" name="smokingStatus">
+					<option value="never">Non Smoker</option>
+					<option value="formerly"> Formerly Smoker</option>
+					<option value="current">Currently Smoker</option> 
 				</select>
 				<br>
 
 				<label>Alcohol Consumption *</label>
 				<br>
+				<select id="alcoholComsumption" name="alcoholComsumption">
+					<option value="naver">Naver</option> 
+					<option value="rarely">Rarely</option>
+					<option value="social">Social Drinker</option>
+					<option value="frequent">Frequent Drinker</option>
+				</select>
+				<br>
 				
 				<label>Physical Activities *</label>
 				<br>
+				<select id="physicalActivities" name="physicalActivities"> 
+					<option value="low">Low</option>
+					<option value="moderate">Moderate</option>
+					<option value="high">High</option>
+				</select>
+				<br> 
 
 				<label>Dietary Patterns *<label>
 				<br> 
+				<select id="dietaryPatterns" name="dietaryPatterns">
+					<option value="paleo">Paleo</option>
+					<option value="pescatarian">Pescatarian</option>
+					<option value="glutenFree">Gluten Free</option>
+					<option value="vegan">Vegan</option>
+					<option value="vegetarian">Vegetarian</option>
+					<option value="nonVegetarian">Non Vegetarian</option>
+				</select>	
+				<br> 				
 			</form>
 			<br> 
 
@@ -93,24 +147,38 @@
 			<form>
 				<label>Average Glucose Level *</label>
 				<br> 
-				
-				<label>Body Mass Index (BMI) *</label>
+				<input type="number" id="glucoseLv" name="glucoseLv" step="any" required>
 				<br> 
 
+				<label>Body Mass Index (BMI) *</label>
+				<br> 
+				<input type="number" id="bmi" name="bmi" step="any" required>
+				<br>
+				
 				<label>Stress Level *</label>
 				<br> 
+				<input type="number" id="stressLv" name="stressLv" step="any" required>
+				<br> 
+
 
 				<label>Blood Pressure Level *</label>
 				<br> 
+				<input type="number" id="sistolik" name="sistolik" step="any" required> / <input type="number" id="diastolik" name="" step="any" required>
+				<br> 
 
 				<label>Cholesterol Level (HDL/LDL) *</label>
+				<br> 
+				<input type="number" id="hdl" name="hdl" step="any" required> HDL 
+				<input type="number" id="ldl" name="ldl" step="any" required> LDL
 				<br>
 			</form>
 			<br> 
-			
+
 			<h1>Symptoms and Diagnosis</h1>
 			<form> 
 				<label>Symptoms</label>
+				<br> 
+				<input type="text" id='symptoms' name="symptoms">
 				<br>
 				
 			</form>	
